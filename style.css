@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: url("ca533f77341099.5c85320ca2964.jpg");
+    min-width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.365);
+    height: 60px;
+    min-width: 100vw;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    z-index: 9;
+    /* filter: blur(10px); */
+}
+.logo  {
+    position: absolute;
+    left: 0%;
+    margin: 15px;
+    width: 60px;
+    height: 50px;
+    background-image: url("png-transparent-mobile-phones-addiction-smartphone-nomophobia-social-media-smartphone-angle-electronics-telephone-call.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.otherMenu{
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    min-width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu{
+    margin-right: 10px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        
+    }
+.landing{
+    padding-top: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    min-height: 90vh;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.front-content{
+    min-width: 300px;
+    width: 40vw;
+    height: 50vh;
+    text-shadow: 1px 1px black;
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 70px;
+}
+.front-content p{
+    font-family: cursive;
+    color: red;
+    display: inline;
+}
+/* pre{
+    display: inline;
+} */
+.form{
+    height: 350px;
+    width: 400px;
+    min-width: 300px;
+    background-color: black;
+    margin: auto ;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 1px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.form img{
+    border-radius: 40px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+.registration{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    font-size: 3rem;
+    text-shadow: 4px 4px 3px rgb(0, 98, 255);
+}
+.reg-ip{
+    height: 55px;
+    width: 80%;
+    margin: auto;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    font-size: 20px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px 1px white;   
+}
+.AboutUs{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    /* margin: auto; */
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.About-content{
+    backdrop-filter: blur(6px);
+    font-size: 2rem;
+    width: 90%;
+    text-align: justify;
+    color: rgb(252, 241, 241);
+}
+.subhead{
+    color: rgba(0, 0, 149, 0.782);
+}
+.About-content2{
+    backdrop-filter: blur(6px);
+    font-size: 2rem;
+    width: 90%;
+    text-align: justify;
+    color: rgba(251, 255, 134, 0.796);
+}
+.About-content3{
+    backdrop-filter: blur(6px);
+    font-size: 2rem;
+    width: 90%;
+    text-align: justify;
+    color: rgba(245, 48, 48, 0.808);
+}
+.bold{
+    color: blueviolet;
+}
+.offers{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coupons{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(107, 107, 107);
+    background-image: url("") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+.coupons-body{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.c-hover{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top:0px;
+    z-index: 1;
+    backdrop-filter: blur(4px);
+    /* padding: 3px; */
+}
+.coupons:hover .c-hover{
+    visibility: visible;
+    opacity: 1;
+    /* display: block; */
+}
+.discount{
+    margin: auto;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+span img {
+    min-width: 74vw;
+}
+.Quotes{
+    backdrop-filter: blur(6px);
+    font-size: 2rem;
+    width: 90%;
+    text-align: justify;
+    color: rgba(235, 70, 142, 0.922);
+    backdrop-filter: blur(6px);
+    font-size: 2rem;
+    width: 90%;
+    text-align: justify;
+}
+@media (max-width: 950px) {
+    span img{
+        min-width: 90vw;
+        margin: auto;
+    }
+    .heading{
+        /* margin: auto; */
+        font-size: 2rem;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .About-content2{
+        backdrop-filter: blur(6px);
+        font-size: 1.5rem;
+        width: 95%;
+        text-align: justify;
+        color: rgba(251, 255, 134, 0.796);
+    }
+    .About-content3{
+        backdrop-filter: blur(6px);
+        font-size: 1.5rem;
+        width: 95%;
+        text-align: justify;
+        color: rgba(245, 48, 48, 0.808);
+    }
+    .About-content{
+        backdrop-filter: blur(6px);
+        font-size: 1.5rem;
+        width: 95%;
+        text-align: justify;
+        color: rgb(252, 241, 241);
+    }
+    
+}
