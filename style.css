@@ -314,21 +314,21 @@ h2{
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: rgba(255, 255, 255, 0.796);
+        color: white;
     }
     .About-content3{
         backdrop-filter: blur(6px);
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: rgba(255, 255, 255, 0.808);
+        color: white;
     }
     .About-content{
         backdrop-filter: blur(6px);
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: rgb(255, 255, 255);
+        color: white;
     }
     
 }
