@@ -142,27 +142,27 @@ input:focus{
     font-size: 2rem;
     width: 90%;
     text-align: justify;
-    color: rgb(172, 0, 140);
+    color: rgb(0, 0, 0);
 }
 .subhead{
-    color: rgba(0, 0, 149, 0.782);
+    color: rgba(0, 0, 0, 0.782);
 }
 .About-content2{
     backdrop-filter: blur(6px);
     font-size: 2rem;
     width: 90%;
     text-align: justify;
-    color: rgb(234, 243, 0);
+    color: rgb(0, 0, 0);
 }
 .About-content3{
     backdrop-filter: blur(6px);
     font-size: 2rem;
     width: 90%;
     text-align: justify;
-    color: rgba(206, 0, 89, 0.808);
+    color: rgba(0, 0, 0, 0.808);
 }
 .bold{
-    color: rgb(147, 32, 255);
+    color: rgb(0, 0, 0);
 }
 .offers{
     min-height:100vh;
@@ -219,7 +219,7 @@ span img {
     font-size: 2rem;
     width: 90%;
     text-align: justify;
-    color: rgb(255, 132, 0);
+    color: rgb(0, 0, 0);
     backdrop-filter: blur(6px);
     font-size: 2rem;
     width: 90%;
@@ -263,6 +263,9 @@ h2{
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+    }
+    .bold{
+        color: #fff;
     }
     .headr{
         color: #fff;
@@ -311,21 +314,21 @@ h2{
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: rgba(251, 255, 134, 0.796);
+        color: rgba(255, 255, 255, 0.796);
     }
     .About-content3{
         backdrop-filter: blur(6px);
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: rgba(245, 48, 48, 0.808);
+        color: rgba(255, 255, 255, 0.808);
     }
     .About-content{
         backdrop-filter: blur(6px);
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: rgb(252, 241, 241);
+        color: rgb(255, 255, 255);
     }
     
 }
