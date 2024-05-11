@@ -264,11 +264,8 @@ h2{
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .aboutus .about-content h3{
-        color: white;
-    }
     .bold{
-        color: white;
+        color: #fff;
     }
     .headr{
         color: #fff;
@@ -304,6 +301,9 @@ h2{
         min-width: 90vw;
         margin: auto;
     }
+    .subhead{
+        color: #fff;
+    }
     .heading{
         /* margin: auto; */
         font-size: 2rem;
@@ -317,21 +317,24 @@ h2{
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: white;
+        color: rgba(255, 255, 255, 0.796);
     }
     .About-content3{
         backdrop-filter: blur(6px);
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: white;
+        color: rgba(255, 255, 255, 0.808);
+    }
+    .Quotes{
+        color: #fff;
     }
     .About-content{
         backdrop-filter: blur(6px);
         font-size: 1.5rem;
         width: 95%;
         text-align: justify;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     
 }
