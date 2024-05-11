@@ -6,10 +6,13 @@
 
 }
 body{
-    background-image: url("ca533f77341099.5c85320ca2964.jpg");
+    background-image: url("istockphoto-911294484-612x612.jpg");
+
+    /* background-color: rgba(202, 66, 66, 0.692); */
     min-width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 nav{
@@ -68,7 +71,7 @@ nav{
     min-width: 300px;
     width: 40vw;
     height: 50vh;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px rgb(0, 0, 0);
     font-size: 5rem;
     font-weight: 900;
     margin: 70px;
@@ -78,9 +81,6 @@ nav{
     color: red;
     display: inline;
 }
-/* pre{
-    display: inline;
-} */
 .form{
     height: 350px;
     width: 400px;
@@ -131,10 +131,9 @@ input:focus{
     align-items: center;
 }
 .heading{
-    /* margin: auto; */
     font-size: 4rem;
     font-weight: 900;
-    color: white;
+    color: rgb(39, 39, 39);
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -143,7 +142,7 @@ input:focus{
     font-size: 2rem;
     width: 90%;
     text-align: justify;
-    color: rgb(252, 241, 241);
+    color: rgb(172, 0, 140);
 }
 .subhead{
     color: rgba(0, 0, 149, 0.782);
@@ -153,17 +152,17 @@ input:focus{
     font-size: 2rem;
     width: 90%;
     text-align: justify;
-    color: rgba(251, 255, 134, 0.796);
+    color: rgb(234, 243, 0);
 }
 .About-content3{
     backdrop-filter: blur(6px);
     font-size: 2rem;
     width: 90%;
     text-align: justify;
-    color: rgba(245, 48, 48, 0.808);
+    color: rgba(206, 0, 89, 0.808);
 }
 .bold{
-    color: blueviolet;
+    color: rgb(147, 32, 255);
 }
 .offers{
     min-height:100vh;
@@ -220,13 +219,81 @@ span img {
     font-size: 2rem;
     width: 90%;
     text-align: justify;
-    color: rgba(235, 70, 142, 0.922);
+    color: rgb(255, 132, 0);
     backdrop-filter: blur(6px);
     font-size: 2rem;
     width: 90%;
     text-align: justify;
 }
-@media (max-width: 950px) {
+.aboutr{
+    backdrop-filter: blur(6px);
+    font-size: 1.25rem;
+    width: 90%;
+    text-align: justify;
+    color: rgb(0, 38, 114);
+}
+li{
+    backdrop-filter: blur(6px);
+    font-size: 1.25rem;
+    width: 90%;
+    text-align: justify;
+    color: rgb(83, 117, 186);
+}
+h2{
+    display: inline-block;
+}
+#downm{
+    margin-bottom: 10%;
+}
+.rhead{
+    backdrop-filter: blur(6px);
+    font-size: 3rem;
+    width: 90%;
+    text-align: justify;
+    position: sticky;
+}
+.headr{
+    backdrop-filter: blur(6px);
+    font-size: 2rem;
+}
+@media (max-width: 850px) {
+    body{
+        background-image: url("33617662-hands-of-businessman-addicted-to-mobile-phone-chain-locked-wrists-in-smartphone-internet-addiction.jpg");
+        min-width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .headr{
+        color: #fff;
+    }
+    .aboutr{
+        backdrop-filter: blur(6px);
+        font-size: 1.25rem;
+        width: 90%;
+        text-align: justify;
+        color: #d2e1ff;
+    }
+    li{
+        backdrop-filter: blur(6px);
+        font-size: 1.25rem;
+        width: 90%;
+        text-align: justify;
+        color: rgb(158, 242, 255);
+    }
+    .rhead{
+        color: #fff;
+    }
+    .front-content{
+        min-width: 300px;
+        width: 40vw;
+        height: 50vh;
+        text-shadow: 1px 1px rgb(255, 255, 255);
+        font-size: 4rem;
+        font-weight: 900;
+        margin: 30px;
+        color: white;
+    }
     span img{
         min-width: 90vw;
         margin: auto;
