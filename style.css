@@ -264,7 +264,7 @@ h2{
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .aboutus h3{
+    .aboutus .aboutcontent h3{
         color: white;
     }
     .bold{
